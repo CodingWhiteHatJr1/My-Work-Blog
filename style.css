@@ -12,6 +12,7 @@ h1 {
     width: 100%;
     height: 800px;
     background-color: #f7ea97;
+    border-spacing: 5px;
 }
 
 #Games {
@@ -27,8 +28,8 @@ h1 {
 }
 
 img {
-    height: 375px;
-    width: 400px;
+    height: 325px;
+    width: 325px;
     transition: transform .2s;
 }
 
@@ -41,4 +42,8 @@ img:hover {
     background-color: white;
     width: 70px;
     margin: 8px auto;
+}
+
+html {
+    scroll-behavior: smooth;
 }
