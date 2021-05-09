@@ -1,49 +1,35 @@
-body {
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+.container {
     text-align: center;
 }
 
-h1 {
-    font-size: 40px;
-    font-family: cursive;
-    font-weight: 300;
+/*Start your code from here */
+#mycarousel {
+    background-color: lightyellow;
 }
 
-#Applab {
-    width: 100%;
-    height: 800px;
-    background-color: #f7ea97;
-    border-spacing: 5px;
+#mycarousel img {
+    height: 300px;
+    margin-top: 35px;
 }
 
-#Games {
-    width: 100%;
-    height: 800px;
-    background-color: beige;
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
 }
 
-#Chatbot {
-    width: 100%;
-    height: 80px;
-    background-color: burlywood;
+#mycarousel2 {
+    background-color: blanchedalmond;
 }
 
-img {
-    height: 325px;
-    width: 325px;
-    transition: transform .2s;
-}
-
-img:hover {
-    transform: scale(0.9);
-}
-
-.line {
-    height: 5px;
-    background-color: white;
-    width: 70px;
-    margin: 8px auto;
-}
-
-html {
-    scroll-behavior: smooth;
+#mycarousel2 img {
+    height: 300px;
+    margin-top: 35px;
 }
